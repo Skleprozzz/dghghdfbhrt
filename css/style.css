@@ -1,0 +1,3241 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela|Lobster|Marck+Script|Pattaya');
+
+           html { height: 100%; }
+
+.contpre small{
+    font-family: 'Lobster', cursive;
+    font-size: 70%;
+    color: hotpink;
+    font-weight: 100;}
+ 
+.contpre{
+ font-family: 'Lobster', cursive;   
+width: 250px;
+height: 100px;
+position: absolute;
+left: 50%;top: 48%;
+margin-left:-125px;
+margin-top:-75px;
+color:hotpink;
+font-size:40px;
+letter-spacing:-2px;
+text-align:center;
+line-height:35px;
+font-weight: 100%;}
+
+#p_prldr{
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+background-color: aqua;
+z-index: 30;}
+
+
+   
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media  screen and (min-width: 1440px){
+    body{
+    
+    margin: 0; 
+    height: 100%; 
+    background-size: cover; 
+    background: url(../images/back2.png) no-repeat;  
+}
+ ul { position: fixed;
+    width: 100%;
+    height: 5%;
+    top: 90%;
+     left: 22%;
+
+    
+}
+a {text-decoration: none;
+}
+    
+a:visited {
+  color: #EF7D55;
+   
+}
+
+
+nav li{
+    padding-left: 1%;
+    padding-right: 0.2%;
+    display: inline-block;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+#btn1 img{width: 40%;
+height: 40%;}
+#btn2 img{width: 40%;
+height: 40%;}
+#btn3 img {width: 40%;
+height: 40%; }
+#btn4 img{width: 40%;
+height: 40%;}
+#btn5 img{width: 40%;
+    height: 40%;}
+#btn5{
+padding-right: 2%;}
+
+
+
+a {
+    text-decoration: none;
+    color: #f85338;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+
+.section{   padding-top: 6%;}
+
+#progressbar{
+    width: 20%;
+    height: 2%;
+    border-radius: 20px;
+    position: fixed;
+    display: block;
+    background-color: white;
+    top: 95%;
+    left: 16%;
+}
+#bgwave{
+    width: 68%;
+    height: 2%;
+    border-radius: 80px;
+    position: fixed;
+    display: block;
+    background:linear-gradient(to left, #ccccff,#55F8F0, #19d1ff);
+    top: 95%;
+    left: 16%;
+}
+
+
+#wave::before{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 10px;
+        border-radius: 20px;
+background-size: 20px 20px;
+background-image:radial-gradient(circle at 10px -5px, transparent 12px, #19d1ff 13px);
+
+}
+
+#wave::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 15px;
+    border-radius: 20px;
+background-size: 40px  20px;
+background-image:radial-gradient(circle at 10px 15px, #19d1ff 12px, transparent 13px);
+}
+
+#bg{
+    position: fixed;
+    top:91%;
+    left: 15%;
+    border-radius: 20px;
+    width: 70%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#back{
+    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+    display: inline;
+   
+   
+}
+
+
+#fullpage #ex4, #fullpage #ex3, #fullpage #ex2, #fullpage #ex1{
+    border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    background: rgba(63, 146, 235, 0.4);
+}
+
+.ex5{
+     border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+  
+}
+
+#mal{
+         font-family: 'Lobster', cursive;
+left: 43%;
+    top: 70%;
+    font-language-override: normal;
+    font-size: 50px;
+    color: hotpink;
+    position: absolute;
+}
+h6{
+    position: absolute;
+    font-language-override: normal;
+    font-size: 20px;
+    color: hotpink;
+    left: 46%;
+    top: 80%;
+}
+h5{
+    
+    font-language-override: normal;
+    font-size: 40px;
+    color: yellow;
+    border: 5px;
+    border-color: cadetblue;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-language-override: normal;
+    font-size: 50px;
+    color: hotpink;
+    
+}
+
+
+#imglogo{
+    padding-left: 0%;
+    width:35%;
+    height: 35%;
+
+}
+
+
+
+p{
+      font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+        text-align: center;
+    color: rgb(159, 227, 218);
+    font-size: 200%;
+}
+
+
+
+
+
+
+#circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 51%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#circle b:nth-of-type(-n+15) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+#circle b:nth-of-type(1) {-ms-transform: rotate(322deg); -webkit-transform: rotate(322deg); transform: rotate(322deg);}
+#circle b:nth-of-type(2) {-ms-transform: rotate(327deg); -webkit-transform: rotate(327deg); transform: rotate(327deg);} 
+#circle b:nth-of-type(3) {-ms-transform: rotate(332deg); -webkit-transform: rotate(332deg); transform: rotate(332deg);} 
+#circle b:nth-of-type(4) {-ms-transform: rotate(337deg); -webkit-transform: rotate(337deg); transform: rotate(337deg);} 
+#circle b:nth-of-type(5) {-ms-transform: rotate(342deg); -webkit-transform: rotate(342deg); transform: rotate(342deg);} 
+#circle b:nth-of-type(6) {-ms-transform: rotate(352deg); -webkit-transform: rotate(352deg); transform: rotate(352deg);} 
+#circle b:nth-of-type(7) {-ms-transform: rotate(357deg); -webkit-transform: rotate(357deg); transform: rotate(357deg);} 
+#circle b:nth-of-type(8) {-ms-transform: rotate(2deg); -webkit-transform: rotate(2deg); transform: rotate(2deg);} 
+#circle b:nth-of-type(9) {-ms-transform: rotate(7deg); -webkit-transform: rotate(7deg); transform: rotate(7deg);} 
+#circle b:nth-of-type(10) {-ms-transform: rotate(12deg); -webkit-transform: rotate(12deg); transform: rotate(12deg);} 
+#circle b:nth-of-type(11) {-ms-transform: rotate(17deg); -webkit-transform: rotate(17deg); transform: rotate(17deg);} 
+#circle b:nth-of-type(12) {-ms-transform: rotate(22deg); -webkit-transform: rotate(22deg); transform: rotate(22deg);} 
+#circle b:nth-of-type(13) {-ms-transform: rotate(27deg); -webkit-transform: rotate(27deg); transform: rotate(27deg);} 
+#circle b:nth-of-type(14) {-ms-transform: rotate(32deg); -webkit-transform: rotate(32deg); transform: rotate(32deg);} 
+#circle b:nth-of-type(15) {-ms-transform: rotate(37deg); -webkit-transform: rotate(37deg); transform: rotate(37deg);} 
+    
+#en_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#en_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 51%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#en_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #en_circle b:nth-of-type(1) {-ms-transform: rotate(345deg); -webkit-transform: rotate(345deg); transform: rotate(345deg);}
+    #en_circle b:nth-of-type(2) {-ms-transform: rotate(350deg); -webkit-transform: rotate(350deg); transform: rotate(350deg);} 
+    #en_circle b:nth-of-type(3) {-ms-transform: rotate(355deg); -webkit-transform: rotate(355deg); transform: rotate(355deg);} 
+    #en_circle b:nth-of-type(4) {-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);} 
+    #en_circle b:nth-of-type(5) {-ms-transform: rotate(5deg); -webkit-transform: rotate(5deg); transform: rotate(5deg);} 
+    #en_circle b:nth-of-type(6) {-ms-transform: rotate(10deg);   -webkit-transform: rotate(10deg);   transform: rotate(10deg);} 
+    #en_circle b:nth-of-type(7) {-ms-transform: rotate(15deg);  -webkit-transform: rotate(15deg);  transform: rotate(15deg);} 
+   
+    
+#cz_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#cz_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 51%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#cz_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #cz_circle b:nth-of-type(1) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);}
+    #cz_circle b:nth-of-type(2) {-ms-transform: rotate(348deg); -webkit-transform: rotate(348deg); transform: rotate(348deg);} 
+    #cz_circle b:nth-of-type(3) {-ms-transform: rotate(353deg); -webkit-transform: rotate(353deg); transform: rotate(353deg);} 
+    #cz_circle b:nth-of-type(4) {-ms-transform: rotate(358deg); -webkit-transform: rotate(358deg); transform: rotate(358deg);} 
+    #cz_circle b:nth-of-type(5) {-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);} 
+    #cz_circle b:nth-of-type(6) {-ms-transform: rotate(8deg);   -webkit-transform: rotate(8deg);   transform: rotate(8deg);} 
+    #cz_circle b:nth-of-type(7) {-ms-transform: rotate(13deg);  -webkit-transform: rotate(13deg);  transform: rotate(13deg);} 
+    
+
+a.glo{
+    top: 10%;
+position: absolute;
+ color:#00c6ff;
+ padding: 10px 0px;
+ width:240px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 30px;
+ border: 0px solid #00C6FF;
+}
+a.glo:hover {
+background-position: 0 0;
+color:#fff;
+}
+a.glo1{
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 74.3%;
+ color:#00c6ff;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+/* font: 400 30px tahoma;*/
+ border: 0px solid #00C6FF;
+}
+a.glo1:hover {
+background-position: 0 0;
+color:#fff;
+}
+
+a.aditional{
+    
+ color:yellow;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,yellow);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 30px tahoma;
+ border: 1px solid yellow;
+}
+
+a.aditional:hover {
+background-position: 0 0;
+color:#fff;
+    }
+}
+/*    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media  screen and (min-width: 1340px){
+    body{
+    
+    margin: 0; 
+    height: 100%; 
+    background-size: cover; 
+    background: url(../images/back2.png) no-repeat;  
+}
+ ul { position: fixed;
+    width: 100%;
+    height: 5%;
+    top: 90%;
+     left: 22%;
+
+    
+}
+a {text-decoration: none;
+}
+    
+a:visited {
+  color: #EF7D55;
+   
+}
+
+
+nav li{
+    padding-left: 1%;
+    padding-right: 0.2%;
+    display: inline-block;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+#btn1 img{width: 40%;
+height: 40%;}
+#btn2 img{width: 40%;
+height: 40%;}
+#btn3 img {width: 40%;
+height: 40%; }
+#btn4 img{width: 40%;
+height: 40%;}
+#btn5 img{width: 40%;
+    height: 40%;}
+#btn5{
+padding-right: 2%;}
+
+
+
+a {
+    text-decoration: none;
+    color: #f85338;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+
+.section{   padding-top: 6%;}
+
+#progressbar{
+    width: 20%;
+    height: 2%;
+    border-radius: 20px;
+    position: fixed;
+    display: block;
+    background-color: white;
+    top: 95%;
+    left: 16%;
+}
+#bgwave{
+    width: 68%;
+    height: 2%;
+    border-radius: 80px;
+    position: fixed;
+    display: block;
+    background:linear-gradient(to left, #ccccff,#55F8F0, #19d1ff);
+    top: 95%;
+    left: 16%;
+}
+
+
+#wave::before{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 10px;
+        border-radius: 20px;
+background-size: 20px 20px;
+background-image:radial-gradient(circle at 10px -5px, transparent 12px, #19d1ff 13px);
+
+}
+
+#wave::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 15px;
+    border-radius: 20px;
+background-size: 40px  20px;
+background-image:radial-gradient(circle at 10px 15px, #19d1ff 12px, transparent 13px);
+}
+
+#bg{
+    position: fixed;
+    top:91%;
+    left: 15%;
+    border-radius: 20px;
+    width: 70%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#back{
+    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+    display: inline;
+   
+   
+}
+
+
+#fullpage #ex4, #fullpage #ex3, #fullpage #ex2, #fullpage #ex1{
+    border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    background: rgba(63, 146, 235, 0.4);
+}
+
+.ex5{
+     border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+  
+}
+
+#mal{
+         font-family: 'Lobster', cursive;
+left: 43%;
+    top: 70%;
+    font-language-override: normal;
+    font-size: 50px;
+    color: hotpink;
+    position: absolute;
+}
+h6{
+    position: absolute;
+    font-language-override: normal;
+    font-size: 20px;
+    color: hotpink;
+    left: 46%;
+    top: 80%;
+}
+h5{
+    
+    font-language-override: normal;
+    font-size: 40px;
+    color: yellow;
+    border: 5px;
+    border-color: cadetblue;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-language-override: normal;
+    font-size: 50px;
+    color: hotpink;
+    
+}
+
+
+#imglogo{
+    padding-left: 0%;
+    width:35%;
+    height: 35%;
+
+}
+
+
+
+p{
+      font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+        text-align: center;
+    color: rgb(159, 227, 218);
+    font-size: 200%;
+}
+
+
+
+
+
+
+#circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 51%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#circle b:nth-of-type(-n+15) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+#circle b:nth-of-type(1) {-ms-transform: rotate(322deg); -webkit-transform: rotate(322deg); transform: rotate(322deg);}
+#circle b:nth-of-type(2) {-ms-transform: rotate(327deg); -webkit-transform: rotate(327deg); transform: rotate(327deg);} 
+#circle b:nth-of-type(3) {-ms-transform: rotate(332deg); -webkit-transform: rotate(332deg); transform: rotate(332deg);} 
+#circle b:nth-of-type(4) {-ms-transform: rotate(337deg); -webkit-transform: rotate(337deg); transform: rotate(337deg);} 
+#circle b:nth-of-type(5) {-ms-transform: rotate(342deg); -webkit-transform: rotate(342deg); transform: rotate(342deg);} 
+#circle b:nth-of-type(6) {-ms-transform: rotate(352deg); -webkit-transform: rotate(352deg); transform: rotate(352deg);} 
+#circle b:nth-of-type(7) {-ms-transform: rotate(357deg); -webkit-transform: rotate(357deg); transform: rotate(357deg);} 
+#circle b:nth-of-type(8) {-ms-transform: rotate(2deg); -webkit-transform: rotate(2deg); transform: rotate(2deg);} 
+#circle b:nth-of-type(9) {-ms-transform: rotate(7deg); -webkit-transform: rotate(7deg); transform: rotate(7deg);} 
+#circle b:nth-of-type(10) {-ms-transform: rotate(12deg); -webkit-transform: rotate(12deg); transform: rotate(12deg);} 
+#circle b:nth-of-type(11) {-ms-transform: rotate(17deg); -webkit-transform: rotate(17deg); transform: rotate(17deg);} 
+#circle b:nth-of-type(12) {-ms-transform: rotate(22deg); -webkit-transform: rotate(22deg); transform: rotate(22deg);} 
+#circle b:nth-of-type(13) {-ms-transform: rotate(27deg); -webkit-transform: rotate(27deg); transform: rotate(27deg);} 
+#circle b:nth-of-type(14) {-ms-transform: rotate(32deg); -webkit-transform: rotate(32deg); transform: rotate(32deg);} 
+#circle b:nth-of-type(15) {-ms-transform: rotate(37deg); -webkit-transform: rotate(37deg); transform: rotate(37deg);} 
+    
+#en_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#en_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 51%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#en_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #en_circle b:nth-of-type(1) {-ms-transform: rotate(345deg); -webkit-transform: rotate(345deg); transform: rotate(345deg);}
+    #en_circle b:nth-of-type(2) {-ms-transform: rotate(350deg); -webkit-transform: rotate(350deg); transform: rotate(350deg);} 
+    #en_circle b:nth-of-type(3) {-ms-transform: rotate(355deg); -webkit-transform: rotate(355deg); transform: rotate(355deg);} 
+    #en_circle b:nth-of-type(4) {-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);} 
+    #en_circle b:nth-of-type(5) {-ms-transform: rotate(5deg); -webkit-transform: rotate(5deg); transform: rotate(5deg);} 
+    #en_circle b:nth-of-type(6) {-ms-transform: rotate(10deg);   -webkit-transform: rotate(10deg);   transform: rotate(10deg);} 
+    #en_circle b:nth-of-type(7) {-ms-transform: rotate(15deg);  -webkit-transform: rotate(15deg);  transform: rotate(15deg);} 
+   
+    
+#cz_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#cz_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 51%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#cz_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #cz_circle b:nth-of-type(1) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);}
+    #cz_circle b:nth-of-type(2) {-ms-transform: rotate(348deg); -webkit-transform: rotate(348deg); transform: rotate(348deg);} 
+    #cz_circle b:nth-of-type(3) {-ms-transform: rotate(353deg); -webkit-transform: rotate(353deg); transform: rotate(353deg);} 
+    #cz_circle b:nth-of-type(4) {-ms-transform: rotate(358deg); -webkit-transform: rotate(358deg); transform: rotate(358deg);} 
+    #cz_circle b:nth-of-type(5) {-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);} 
+    #cz_circle b:nth-of-type(6) {-ms-transform: rotate(8deg);   -webkit-transform: rotate(8deg);   transform: rotate(8deg);} 
+    #cz_circle b:nth-of-type(7) {-ms-transform: rotate(13deg);  -webkit-transform: rotate(13deg);  transform: rotate(13deg);} 
+    
+
+a.glo{
+    top: 10%;
+position: absolute;
+ color:#00c6ff;
+ padding: 10px 0px;
+ width:240px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 30px;
+ border: 0px solid #00C6FF;
+}
+a.glo:hover {
+background-position: 0 0;
+color:#fff;
+}
+a.glo1{
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 74.3%;
+ color:#00c6ff;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+/* font: 400 30px tahoma;*/
+ border: 0px solid #00C6FF;
+}
+a.glo1:hover {
+background-position: 0 0;
+color:#fff;
+}
+
+a.aditional{
+    
+ color:yellow;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,yellow);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 30px tahoma;
+ border: 1px solid yellow;
+}
+
+a.aditional:hover {
+background-position: 0 0;
+color:#fff;
+    }
+}
+/*    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media  screen and (min-width: 1060px){
+    body{
+    
+    margin: 0; 
+    height: 100%; 
+    background-size: cover; 
+    background: url(../images/back2.png) no-repeat;  
+}
+ ul { position: fixed;
+    width: 100%;
+    height: 5%;
+    top: 90%;
+     left: 22%;
+
+    
+}
+a {text-decoration: none;
+}
+    
+a:visited {
+  color: #EF7D55;
+   
+}
+
+
+nav li{
+    padding-left: 1%;
+    padding-right: 0.2%;
+    display: inline-block;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+#btn1 img{width: 40%;
+height: 40%;}
+#btn2 img{width: 40%;
+height: 40%;}
+#btn3 img {width: 40%;
+height: 40%; }
+#btn4 img{width: 40%;
+height: 40%;}
+#btn5 img{width: 40%;
+    height: 40%;}
+#btn5{
+padding-right: 2%;}
+
+
+
+a {
+    text-decoration: none;
+    color: #f85338;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+
+.section{   padding-top: 6%;}
+
+#progressbar{
+    width: 20%;
+    height: 2%;
+    border-radius: 20px;
+    position: fixed;
+    display: block;
+    background-color: white;
+    top: 95%;
+    left: 16%;
+}
+#bgwave{
+    width: 68%;
+    height: 2%;
+    border-radius: 80px;
+    position: fixed;
+    display: block;
+    background:linear-gradient(to left, #ccccff,#55F8F0, #19d1ff);
+    top: 95%;
+    left: 16%;
+}
+
+
+#wave::before{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 10px;
+        border-radius: 20px;
+background-size: 20px 20px;
+background-image:radial-gradient(circle at 10px -5px, transparent 12px, #19d1ff 13px);
+
+}
+
+#wave::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 15px;
+    border-radius: 20px;
+background-size: 40px  20px;
+background-image:radial-gradient(circle at 10px 15px, #19d1ff 12px, transparent 13px);
+}
+
+#bg{
+    position: fixed;
+    top:91%;
+    left: 15%;
+    border-radius: 20px;
+    width: 70%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#back{
+    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+    display: inline;
+   
+   
+}
+
+
+#fullpage #ex4, #fullpage #ex3, #fullpage #ex2, #fullpage #ex1{
+    border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    background: rgba(63, 146, 235, 0.4);
+}
+
+.ex5{
+     border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+  
+}
+
+#mal{
+         font-family: 'Lobster', cursive;
+left: 43%;
+    top: 70%;
+    font-language-override: normal;
+    font-size: 50px;
+    color: hotpink;
+    position: absolute;
+}
+h6{
+    position: absolute;
+    font-language-override: normal;
+    font-size: 20px;
+    color: hotpink;
+    left: 46%;
+    top: 80%;
+}
+h5{
+    
+    font-language-override: normal;
+    font-size: 40px;
+    color: yellow;
+    border: 5px;
+    border-color: cadetblue;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-language-override: normal;
+    font-size: 50px;
+    color: hotpink;
+    
+}
+
+
+#imglogo{
+    padding-left: 0%;
+    width:35%;
+    height: 35%;
+
+}
+
+
+
+p{
+      font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+        text-align: center;
+    color: rgb(159, 227, 218);
+    font-size: 200%;
+}
+
+
+
+
+
+
+#circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 51%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#circle b:nth-of-type(-n+15) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+#circle b:nth-of-type(1) {-ms-transform: rotate(322deg); -webkit-transform: rotate(322deg); transform: rotate(322deg);}
+#circle b:nth-of-type(2) {-ms-transform: rotate(327deg); -webkit-transform: rotate(327deg); transform: rotate(327deg);} 
+#circle b:nth-of-type(3) {-ms-transform: rotate(332deg); -webkit-transform: rotate(332deg); transform: rotate(332deg);} 
+#circle b:nth-of-type(4) {-ms-transform: rotate(337deg); -webkit-transform: rotate(337deg); transform: rotate(337deg);} 
+#circle b:nth-of-type(5) {-ms-transform: rotate(342deg); -webkit-transform: rotate(342deg); transform: rotate(342deg);} 
+#circle b:nth-of-type(6) {-ms-transform: rotate(352deg); -webkit-transform: rotate(352deg); transform: rotate(352deg);} 
+#circle b:nth-of-type(7) {-ms-transform: rotate(357deg); -webkit-transform: rotate(357deg); transform: rotate(357deg);} 
+#circle b:nth-of-type(8) {-ms-transform: rotate(2deg); -webkit-transform: rotate(2deg); transform: rotate(2deg);} 
+#circle b:nth-of-type(9) {-ms-transform: rotate(7deg); -webkit-transform: rotate(7deg); transform: rotate(7deg);} 
+#circle b:nth-of-type(10) {-ms-transform: rotate(12deg); -webkit-transform: rotate(12deg); transform: rotate(12deg);} 
+#circle b:nth-of-type(11) {-ms-transform: rotate(17deg); -webkit-transform: rotate(17deg); transform: rotate(17deg);} 
+#circle b:nth-of-type(12) {-ms-transform: rotate(22deg); -webkit-transform: rotate(22deg); transform: rotate(22deg);} 
+#circle b:nth-of-type(13) {-ms-transform: rotate(27deg); -webkit-transform: rotate(27deg); transform: rotate(27deg);} 
+#circle b:nth-of-type(14) {-ms-transform: rotate(32deg); -webkit-transform: rotate(32deg); transform: rotate(32deg);} 
+#circle b:nth-of-type(15) {-ms-transform: rotate(37deg); -webkit-transform: rotate(37deg); transform: rotate(37deg);} 
+    
+#en_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#en_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 51%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#en_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #en_circle b:nth-of-type(1) {-ms-transform: rotate(345deg); -webkit-transform: rotate(345deg); transform: rotate(345deg);}
+    #en_circle b:nth-of-type(2) {-ms-transform: rotate(350deg); -webkit-transform: rotate(350deg); transform: rotate(350deg);} 
+    #en_circle b:nth-of-type(3) {-ms-transform: rotate(355deg); -webkit-transform: rotate(355deg); transform: rotate(355deg);} 
+    #en_circle b:nth-of-type(4) {-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);} 
+    #en_circle b:nth-of-type(5) {-ms-transform: rotate(5deg); -webkit-transform: rotate(5deg); transform: rotate(5deg);} 
+    #en_circle b:nth-of-type(6) {-ms-transform: rotate(10deg);   -webkit-transform: rotate(10deg);   transform: rotate(10deg);} 
+    #en_circle b:nth-of-type(7) {-ms-transform: rotate(15deg);  -webkit-transform: rotate(15deg);  transform: rotate(15deg);} 
+   
+    
+#cz_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#cz_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 51%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#cz_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #cz_circle b:nth-of-type(1) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);}
+    #cz_circle b:nth-of-type(2) {-ms-transform: rotate(348deg); -webkit-transform: rotate(348deg); transform: rotate(348deg);} 
+    #cz_circle b:nth-of-type(3) {-ms-transform: rotate(353deg); -webkit-transform: rotate(353deg); transform: rotate(353deg);} 
+    #cz_circle b:nth-of-type(4) {-ms-transform: rotate(358deg); -webkit-transform: rotate(358deg); transform: rotate(358deg);} 
+    #cz_circle b:nth-of-type(5) {-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);} 
+    #cz_circle b:nth-of-type(6) {-ms-transform: rotate(8deg);   -webkit-transform: rotate(8deg);   transform: rotate(8deg);} 
+    #cz_circle b:nth-of-type(7) {-ms-transform: rotate(13deg);  -webkit-transform: rotate(13deg);  transform: rotate(13deg);} 
+    
+
+a.glo{
+    top: 10%;
+position: absolute;
+ color:#00c6ff;
+ padding: 10px 0px;
+ width:240px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 30px;
+ border: 0px solid #00C6FF;
+}
+a.glo:hover {
+background-position: 0 0;
+color:#fff;
+}
+a.glo1{
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 74.3%;
+ color:#00c6ff;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+/* font: 400 30px tahoma;*/
+ border: 0px solid #00C6FF;
+}
+a.glo1:hover {
+background-position: 0 0;
+color:#fff;
+}
+
+a.aditional{
+    
+ color:yellow;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,yellow);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 30px tahoma;
+ border: 1px solid yellow;
+}
+
+a.aditional:hover {
+background-position: 0 0;
+color:#fff;
+    }
+}
+/*    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media  screen and (max-width: 1120px){
+    body{
+    
+    margin: 0; 
+    height: 100%; 
+    background-position: 50% 50%;
+    background-size: cover; 
+    background: url(../images/backpc.png) no-repeat;  
+}
+ ul { position: fixed;
+    width: 100%;
+    height: 5%;
+    top: 90%;
+     left: 14%;
+
+    
+}
+a {text-decoration: none;
+}
+    
+
+
+
+nav li{
+    padding-left: 0.1%;
+    padding-right: 0.1%;
+    display: inline-block;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+#btn1 img{width: 40%;
+height: 40%;}
+#btn2 img{width: 40%;
+height: 40%;}
+#btn3 img {width: 40%;
+height: 40%; }
+#btn4 img{width: 40%;
+height: 40%;}
+#btn5 img{width: 40%;
+    height: 40%;}
+#btn5{
+padding-right: 2%;}
+
+
+
+a {
+    text-decoration: none;
+    color: #f85338;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+
+.section{   padding-top: 6%;}
+
+#progressbar{
+    width: 20%;
+    height: 2%;
+    border-radius: 20px;
+    position: fixed;
+    display: block;
+    background-color: white;
+    top: 95%;
+    left: 16%;
+}
+#bgwave{
+    width: 68%;
+    height: 2%;
+    border-radius: 80px;
+    position: fixed;
+    display: block;
+    background:linear-gradient(to left, #ccccff,#55F8F0, #19d1ff);
+    top: 95%;
+    left: 16%;
+}
+
+
+#wave::before{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 10px;
+        border-radius: 20px;
+background-size: 20px 20px;
+background-image:radial-gradient(circle at 10px -5px, transparent 12px, #19d1ff 13px);
+
+}
+
+#wave::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 15px;
+    border-radius: 20px;
+background-size: 40px  20px;
+background-image:radial-gradient(circle at 10px 15px, #19d1ff 12px, transparent 13px);
+}
+
+#bg{
+    position: fixed;
+    top:91%;
+    left: 15%;
+    border-radius: 20px;
+    width: 70%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#back{
+    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+    display: inline;
+   
+   
+}
+
+
+#fullpage #ex4, #fullpage #ex3, #fullpage #ex2, #fullpage #ex1{
+    border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    background: rgba(63, 146, 235, 0.4);
+}
+
+.ex5{
+     border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+  
+}
+
+#mal{
+         font-family: 'Lobster', cursive;
+left: 40%;
+    top: 70%;
+    font-language-override: normal;
+    font-size: 50px;
+    color: hotpink;
+    position: absolute;
+}
+h6{
+    position: absolute;
+    font-language-override: normal;
+    font-size: 20px;
+    color: hotpink;
+    left: 43%;
+    top: 80%;
+}
+h5{
+    
+    font-language-override: normal;
+    font-size: 40px;
+    color: yellow;
+    border: 5px;
+    border-color: cadetblue;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-language-override: normal;
+    font-size: 50px;
+    color: hotpink;
+    
+}
+
+
+#imglogo{
+    width:35%;
+    height: 35%;
+    
+}
+
+
+
+p{
+      font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+        text-align: center;
+    color: rgb(159, 227, 218);
+    font-size: 180%;
+}
+
+
+
+
+
+
+#circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -12%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 50%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+   
+}
+
+/* Шпаргалка блоггера */
+#circle b:nth-of-type(-n+15) {
+    
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+#circle b:nth-of-type(1) {-ms-transform: rotate(322deg); -webkit-transform: rotate(322deg); transform: rotate(322deg);}
+#circle b:nth-of-type(2) {-ms-transform: rotate(327deg); -webkit-transform: rotate(327deg); transform: rotate(327deg);} 
+#circle b:nth-of-type(3) {-ms-transform: rotate(332deg); -webkit-transform: rotate(332deg); transform: rotate(332deg);} 
+#circle b:nth-of-type(4) {-ms-transform: rotate(337deg); -webkit-transform: rotate(337deg); transform: rotate(337deg);} 
+#circle b:nth-of-type(5) {-ms-transform: rotate(342deg); -webkit-transform: rotate(342deg); transform: rotate(342deg);} 
+#circle b:nth-of-type(6) {-ms-transform: rotate(352deg); -webkit-transform: rotate(352deg); transform: rotate(352deg);} 
+#circle b:nth-of-type(7) {-ms-transform: rotate(357deg); -webkit-transform: rotate(357deg); transform: rotate(357deg);} 
+#circle b:nth-of-type(8) {-ms-transform: rotate(2deg); -webkit-transform: rotate(2deg); transform: rotate(2deg);} 
+#circle b:nth-of-type(9) {-ms-transform: rotate(7deg); -webkit-transform: rotate(7deg); transform: rotate(7deg);} 
+#circle b:nth-of-type(10) {-ms-transform: rotate(12deg); -webkit-transform: rotate(12deg); transform: rotate(12deg);} 
+#circle b:nth-of-type(11) {-ms-transform: rotate(17deg); -webkit-transform: rotate(17deg); transform: rotate(17deg);} 
+#circle b:nth-of-type(12) {-ms-transform: rotate(22deg); -webkit-transform: rotate(22deg); transform: rotate(22deg);} 
+#circle b:nth-of-type(13) {-ms-transform: rotate(27deg); -webkit-transform: rotate(27deg); transform: rotate(27deg);} 
+#circle b:nth-of-type(14) {-ms-transform: rotate(32deg); -webkit-transform: rotate(32deg); transform: rotate(32deg);} 
+#circle b:nth-of-type(15) {-ms-transform: rotate(37deg); -webkit-transform: rotate(37deg); transform: rotate(37deg);} 
+    
+#en_circle {
+    
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -13%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#en_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 50%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#en_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #en_circle b:nth-of-type(1) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);}
+    #en_circle b:nth-of-type(2) {-ms-transform: rotate(348deg); -webkit-transform: rotate(348deg); transform: rotate(348deg);} 
+    #en_circle b:nth-of-type(3) {-ms-transform: rotate(353deg); -webkit-transform: rotate(353deg); transform: rotate(353deg);} 
+    #en_circle b:nth-of-type(4) {-ms-transform: rotate(358deg); -webkit-transform: rotate(358deg); transform: rotate(358deg);} 
+    #en_circle b:nth-of-type(5) {-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);} 
+    #en_circle b:nth-of-type(6) {-ms-transform: rotate(8deg);   -webkit-transform: rotate(8deg);   transform: rotate(8deg);} 
+    #en_circle b:nth-of-type(7) {-ms-transform: rotate(13deg);  -webkit-transform: rotate(13deg);  transform: rotate(13deg);} 
+   
+    
+#cz_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -12%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#cz_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 51%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#cz_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #cz_circle b:nth-of-type(1) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);}
+    #cz_circle b:nth-of-type(2) {-ms-transform: rotate(348deg); -webkit-transform: rotate(348deg); transform: rotate(348deg);} 
+    #cz_circle b:nth-of-type(3) {-ms-transform: rotate(353deg); -webkit-transform: rotate(353deg); transform: rotate(353deg);} 
+    #cz_circle b:nth-of-type(4) {-ms-transform: rotate(358deg); -webkit-transform: rotate(358deg); transform: rotate(358deg);} 
+    #cz_circle b:nth-of-type(5) {-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);} 
+    #cz_circle b:nth-of-type(6) {-ms-transform: rotate(8deg);   -webkit-transform: rotate(8deg);   transform: rotate(8deg);} 
+    #cz_circle b:nth-of-type(7) {-ms-transform: rotate(13deg);  -webkit-transform: rotate(13deg);  transform: rotate(13deg);} 
+    
+
+a.glo{
+    top: 10%;
+position: absolute;
+ color:#00c6ff;
+ padding: 10px 0px;
+ width:240px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 30px;
+ border: 0px solid #00C6FF;
+}
+a.glo:hover {
+background-position: 0 0;
+color:#fff;
+}
+a.glo1{
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 74.3%;
+ color:#00c6ff;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+/* font: 400 30px tahoma;*/
+ border: 0px solid #00C6FF;
+}
+a.glo1:hover {
+background-position: 0 0;
+color:#fff;
+}
+
+a.aditional{
+    
+ color:yellow;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,yellow);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 30px tahoma;
+ border: 1px solid yellow;
+}
+
+a.aditional:hover {
+background-position: 0 0;
+color:#fff;
+    }
+}
+/*    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ @media screen and (max-width: 900px){
+
+
+     body{
+    
+    margin: 0; 
+    height: 100%; 
+    background-position: center;
+    background-size: cover; 
+    background: url(../images/backtablet.png) no-repeat;  
+}
+
+
+
+ul { position: fixed;
+    width: 100%;
+    height: 5%;
+top: 90%;
+    left: 9%;
+
+    
+}
+
+
+
+nav li{
+ width: 30px;
+
+    display: inline-block;
+margin-right: 13%;
+}
+
+
+
+#btn1 img{width: 140%;
+height: 140%;}
+#btn2 img{width: 140%;
+height: 140%;}
+#btn3 img {width: 140%;
+height: 140%; }
+#btn4 img{width: 140%;
+height: 140%;}
+#btn5 img{width: 140%;
+    height: 140%;}
+#btn5{
+padding-right: 2%;}
+
+
+
+a {
+    text-decoration: none;
+    color: #f85338;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+
+.section{   padding-top: 6%;}
+
+#progressbar{
+    width: 10%;
+    height: 2%;
+    border-radius: 20px;
+    position: fixed;
+    display: block;
+/*    background:linear-gradient(to left, #ccccff,#55F8F0, #ccccff);*/
+    background-color: white;
+    top: 95%;
+    left: 9%;
+}
+#bgwave{
+    width: 82%;
+    height: 2%;
+    border-radius: 80px;
+    position: fixed;
+    display: block;
+    background:linear-gradient(to left, #ccccff,#55F8F0, #19d1ff);
+    top: 95%;
+    left: 9%;
+}
+
+
+#wave::before{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 10px;
+        border-radius: 20px;
+background-size: 20px 20px;
+background-image:radial-gradient(circle at 10px -5px, transparent 12px, #19d1ff 13px);
+
+}
+
+#wave::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 15px;
+    border-radius: 20px;
+background-size: 40px  20px;
+background-image:radial-gradient(circle at 10px 15px, #19d1ff 12px, transparent 13px);
+}
+
+#bg{
+    position: fixed;
+    top:91%;
+    left: 8.2%;
+    border-radius: 20px;
+    width: 84%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#back{
+    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+    display: inline;
+   
+   
+}
+
+
+#fullpage #ex4, #fullpage #ex3, #fullpage #ex2, #fullpage #ex1{
+    border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    background: rgba(63, 146, 235, 0.4);
+}
+
+.ex5{
+     border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+  
+}
+
+#mal{
+         font-family: 'Lobster', cursive;
+left: 40%;
+    top: 60%;
+    font-language-override: normal;
+    font-size: 50px;
+    color: hotpink;
+    position: absolute;
+}
+h6{
+    position: absolute;
+    font-language-override: normal;
+    font-size: 20px;
+    color: hotpink;
+    left: 44%;
+    top: 70%;
+}
+h5{
+    
+    font-language-override: normal;
+    font-size: 40px;
+    color: yellow;
+    border: 5px;
+    border-color: cadetblue;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-language-override: normal;
+    font-size: 40px;
+    color: hotpink;
+    
+}
+
+
+#imglogo{
+    position: absolute;
+    
+    left: 39%;
+    width:27%;
+    height: 27%;
+}
+
+
+
+p{
+    
+      font-family: 'Lobster', cursive;
+        text-align: center;
+    color: rgb(159, 227, 218);
+    font-size: 170%;
+}
+
+
+
+
+
+
+#circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: 5%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 53%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#circle b:nth-of-type(-n+15) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+#circle b:nth-of-type(1) {-ms-transform: rotate(322deg); -webkit-transform: rotate(322deg); transform: rotate(322deg);}
+#circle b:nth-of-type(2) {-ms-transform: rotate(327deg); -webkit-transform: rotate(327deg); transform: rotate(327deg);} 
+#circle b:nth-of-type(3) {-ms-transform: rotate(332deg); -webkit-transform: rotate(332deg); transform: rotate(332deg);} 
+#circle b:nth-of-type(4) {-ms-transform: rotate(337deg); -webkit-transform: rotate(337deg); transform: rotate(337deg);} 
+#circle b:nth-of-type(5) {-ms-transform: rotate(342deg); -webkit-transform: rotate(342deg); transform: rotate(342deg);} 
+#circle b:nth-of-type(6) {-ms-transform: rotate(352deg); -webkit-transform: rotate(352deg); transform: rotate(352deg);} 
+#circle b:nth-of-type(7) {-ms-transform: rotate(357deg); -webkit-transform: rotate(357deg); transform: rotate(357deg);} 
+#circle b:nth-of-type(8) {-ms-transform: rotate(2deg); -webkit-transform: rotate(2deg); transform: rotate(2deg);} 
+#circle b:nth-of-type(9) {-ms-transform: rotate(7deg); -webkit-transform: rotate(7deg); transform: rotate(7deg);} 
+#circle b:nth-of-type(10) {-ms-transform: rotate(12deg); -webkit-transform: rotate(12deg); transform: rotate(12deg);} 
+#circle b:nth-of-type(11) {-ms-transform: rotate(17deg); -webkit-transform: rotate(17deg); transform: rotate(17deg);} 
+#circle b:nth-of-type(12) {-ms-transform: rotate(22deg); -webkit-transform: rotate(22deg); transform: rotate(22deg);} 
+#circle b:nth-of-type(13) {-ms-transform: rotate(27deg); -webkit-transform: rotate(27deg); transform: rotate(27deg);} 
+#circle b:nth-of-type(14) {-ms-transform: rotate(32deg); -webkit-transform: rotate(32deg); transform: rotate(32deg);} 
+#circle b:nth-of-type(15) {-ms-transform: rotate(37deg); -webkit-transform: rotate(37deg); transform: rotate(37deg);} 
+    
+#en_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: 5%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#en_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 53%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#en_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #en_circle b:nth-of-type(1) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);}
+    #en_circle b:nth-of-type(2) {-ms-transform: rotate(348deg); -webkit-transform: rotate(348deg); transform: rotate(348deg);} 
+    #en_circle b:nth-of-type(3) {-ms-transform: rotate(353deg); -webkit-transform: rotate(353deg); transform: rotate(353deg);} 
+    #en_circle b:nth-of-type(4) {-ms-transform: rotate(358deg); -webkit-transform: rotate(358deg); transform: rotate(358deg);} 
+    #en_circle b:nth-of-type(5) {-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);} 
+    #en_circle b:nth-of-type(6) {-ms-transform: rotate(8deg);   -webkit-transform: rotate(8deg);   transform: rotate(8deg);} 
+    #en_circle b:nth-of-type(7) {-ms-transform: rotate(13deg);  -webkit-transform: rotate(13deg);  transform: rotate(13deg);} 
+   
+    
+#cz_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: 5%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#cz_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 53%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#cz_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #cz_circle b:nth-of-type(1) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);}
+    #cz_circle b:nth-of-type(2) {-ms-transform: rotate(348deg); -webkit-transform: rotate(348deg); transform: rotate(348deg);} 
+    #cz_circle b:nth-of-type(3) {-ms-transform: rotate(353deg); -webkit-transform: rotate(353deg); transform: rotate(353deg);} 
+    #cz_circle b:nth-of-type(4) {-ms-transform: rotate(358deg); -webkit-transform: rotate(358deg); transform: rotate(358deg);} 
+    #cz_circle b:nth-of-type(5) {-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);} 
+    #cz_circle b:nth-of-type(6) {-ms-transform: rotate(8deg);   -webkit-transform: rotate(8deg);   transform: rotate(8deg);} 
+    #cz_circle b:nth-of-type(7) {-ms-transform: rotate(13deg);  -webkit-transform: rotate(13deg);  transform: rotate(13deg);} 
+    
+
+a.glo{
+    top: 10%;
+position: absolute;
+ color:#00c6ff;
+ padding: 10px 0px;
+ width:240px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 30px;
+ border: 0px solid #00C6FF;
+}
+a.glo:hover {
+background-position: 0 0;
+color:#fff;
+}
+a.glo1{
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 74.3%;
+ color:#00c6ff;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+/* font: 400 30px tahoma;*/
+ border: 0px solid #00C6FF;
+}
+a.glo1:hover {
+background-position: 0 0;
+color:#fff;
+}
+
+a.aditional{
+    
+ color:yellow;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,yellow);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 30px tahoma;
+ border: 1px solid yellow;
+}
+
+a.aditional:hover {
+background-position: 0 0;
+color:#fff;
+    }
+}
+/*    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ @media screen and (max-width: 430px){
+
+
+     body{
+    
+    margin: 0; 
+    height: 100%; 
+    background-position: center;
+    background-size: cover; 
+    background: url(../images/backmobile.png) no-repeat;  
+}
+
+
+ul { position: fixed;
+    width: 100%;
+    height: 5%;
+top: 90%;
+    left: 8%;
+
+    
+}
+
+
+
+nav li{
+ width: 30px;
+
+    display: inline-block;
+margin-right: 8%;
+}
+
+
+#btn1 img{width: 110%;
+height: 110%;}
+#btn2 img{width: 110%;
+height: 110%;}
+#btn3 img {width: 110%;
+height: 110%; }
+#btn4 img{width: 110%;
+height: 110%;}
+#btn5 img{width: 110%;
+    height: 110%;}
+#btn5{
+padding-right: 0%;}
+
+
+
+a {
+    text-decoration: none;
+    color: #f85338;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+
+.section{   padding-top: 6%;}
+
+#progressbar{
+    width: 10%;
+    height: 2%;
+    border-radius: 20px;
+    position: fixed;
+    display: block;
+/*    background:linear-gradient(to left, #ccccff,#55F8F0, #ccccff);*/
+    background-color: white;
+    top: 95%;
+    left: 17%;
+}
+#bgwave{
+    width: 68%;
+    height: 2%;
+    border-radius: 80px;
+    position: fixed;
+    display: block;
+    background:linear-gradient(to left, #ccccff,#55F8F0, #19d1ff);
+    top: 95%;
+    left: 17%;
+}
+
+
+#wave::before{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 10px;
+        border-radius: 20px;
+background-size: 20px 20px;
+background-image:radial-gradient(circle at 10px -5px, transparent 12px, #19d1ff 13px);
+
+}
+
+#wave::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 15px;
+    border-radius: 20px;
+background-size: 40px  20px;
+background-image:radial-gradient(circle at 10px 15px, #19d1ff 12px, transparent 13px);
+}
+
+#bg{
+    position: fixed;
+    top:91%;
+    left: 14.7%;
+    border-radius: 20px;
+    width: 72%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#back{
+    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+    display: inline;
+   
+   
+}
+
+
+#fullpage #ex4, #fullpage #ex3, #fullpage #ex2, #fullpage #ex1{
+    border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    background: rgba(63, 146, 235, 0.4);
+}
+
+.ex5{
+     border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+  
+}
+
+#mal{
+         font-family: 'Lobster', cursive;
+left: 38%;
+    top: 70%;
+    font-language-override: normal;
+    font-size: 30px;
+    color: hotpink;
+    position: absolute;
+}
+h6{
+    position: absolute;
+    font-language-override: normal;
+    font-size: 15px;
+    color: hotpink;
+    left: 40%;
+    top: 77%;
+}
+h5{
+    
+    font-language-override: normal;
+    font-size: 20px;
+    color: yellow;
+    border: 5px;
+    border-color: cadetblue;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-language-override: normal;
+    font-size: 30px;
+    color: hotpink;
+    
+}
+
+
+#imglogo{
+    position: absolute;
+    left: 21%;
+    width:59%;
+    height: 35%;
+    opacity: 0.5;
+}
+
+
+
+p{
+    
+      font-family: 'Lobster', cursive;
+        text-align: center;
+    color: rgb(159, 227, 218);
+    font-size: 105%;
+}
+
+
+
+
+
+
+#circle {
+  position: relative;
+  width:40%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -30%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 30px;
+    color: hotpink;
+top: -200%;
+  position: absolute; left: 50%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#circle b:nth-of-type(-n+15) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+#circle b:nth-of-type(1) {-ms-transform: rotate(283deg); -webkit-transform: rotate(283deg); transform: rotate(283deg);}
+#circle b:nth-of-type(2) {-ms-transform: rotate(293deg); -webkit-transform: rotate(293deg); transform: rotate(293deg);} 
+#circle b:nth-of-type(3) {-ms-transform: rotate(303deg); -webkit-transform: rotate(303deg); transform: rotate(303deg);} 
+#circle b:nth-of-type(4) {-ms-transform: rotate(313deg); -webkit-transform: rotate(313deg); transform: rotate(313deg);} 
+#circle b:nth-of-type(5) {-ms-transform: rotate(323deg); -webkit-transform: rotate(323deg); transform: rotate(323deg);} 
+#circle b:nth-of-type(6) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);} 
+#circle b:nth-of-type(7) {-ms-transform: rotate(353deg); -webkit-transform: rotate(353deg); transform: rotate(353deg);} 
+#circle b:nth-of-type(8) {-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);} 
+#circle b:nth-of-type(9) {-ms-transform: rotate(13deg); -webkit-transform: rotate(13deg); transform: rotate(13deg);} 
+#circle b:nth-of-type(10) {-ms-transform: rotate(23deg); -webkit-transform: rotate(23deg); transform: rotate(23deg);} 
+#circle b:nth-of-type(11) {-ms-transform: rotate(33deg); -webkit-transform: rotate(33deg); transform: rotate(33deg);} 
+#circle b:nth-of-type(12) {-ms-transform: rotate(43deg); -webkit-transform: rotate(43deg); transform: rotate(43deg);} 
+#circle b:nth-of-type(13) {-ms-transform: rotate(53deg); -webkit-transform: rotate(53deg); transform: rotate(53deg);} 
+#circle b:nth-of-type(14) {-ms-transform: rotate(63deg); -webkit-transform: rotate(63deg); transform: rotate(63deg);} 
+#circle b:nth-of-type(15) {-ms-transform: rotate(73deg); -webkit-transform: rotate(73deg); transform: rotate(73deg);} 
+    
+#en_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -15%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#en_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 40px;
+    color: hotpink;
+
+  position: absolute; left: 50%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#en_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #en_circle b:nth-of-type(1) {-ms-transform: rotate(330deg); -webkit-transform: rotate(330deg); transform: rotate(330deg);}
+    #en_circle b:nth-of-type(2) {-ms-transform: rotate(340deg); -webkit-transform: rotate(340deg); transform: rotate(340deg);} 
+    #en_circle b:nth-of-type(3) {-ms-transform: rotate(350deg);   -webkit-transform: rotate(350deg);   transform: rotate(350deg);} 
+    #en_circle b:nth-of-type(4) {-ms-transform: rotate(0deg);  -webkit-transform: rotate(0deg);  transform: rotate(0deg);} 
+    #en_circle b:nth-of-type(5) {-ms-transform: rotate(10deg);  -webkit-transform: rotate(10deg);  transform: rotate(10deg);} 
+    #en_circle b:nth-of-type(6) {-ms-transform: rotate(20deg);  -webkit-transform: rotate(20deg);  transform: rotate(20deg);} 
+    #en_circle b:nth-of-type(7) {-ms-transform: rotate(30deg);  -webkit-transform: rotate(30deg);  transform: rotate(30deg);} 
+   
+    
+#cz_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -15%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#cz_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 50%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#cz_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #cz_circle b:nth-of-type(1) {-ms-transform: rotate(330deg); -webkit-transform: rotate(330deg); transform: rotate(330deg);}
+ #cz_circle b:nth-of-type(2) {-ms-transform: rotate(340deg); -webkit-transform: rotate(340deg); transform: rotate(340deg);} 
+ #cz_circle b:nth-of-type(3) {-ms-transform: rotate(350deg);   -webkit-transform: rotate(350deg);   transform: rotate(350deg);} 
+ #cz_circle b:nth-of-type(4) {-ms-transform: rotate(0deg);  -webkit-transform: rotate(0deg);  transform: rotate(0deg);} 
+ #cz_circle b:nth-of-type(5) {-ms-transform: rotate(10deg);  -webkit-transform: rotate(10deg);  transform: rotate(10deg);} 
+ #cz_circle b:nth-of-type(6) {-ms-transform: rotate(20deg);  -webkit-transform: rotate(20deg);  transform: rotate(20deg);} 
+ #cz_circle b:nth-of-type(7) {-ms-transform: rotate(30deg);  -webkit-transform: rotate(30deg);  transform: rotate(30deg);} 
+
+
+
+
+
+
+
+
+    
+
+a.glo{
+    top: 10%;
+position: absolute;
+ color:#00c6ff;
+ padding: 10px 0px;
+ width:50%;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 15px;
+ border: 0px solid #00C6FF;
+}
+a.glo:hover {
+background-position: 0 0;
+color:#fff;
+}
+a.glo1{
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 15px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+ color:#00c6ff;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+/* font: 400 30px tahoma;*/
+ border: 0px solid #00C6FF;
+}
+a.glo1:hover {
+background-position: 0 0;
+color:#fff;
+}
+
+a.aditional{
+    
+ color:yellow;
+ padding: 5px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,yellow);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 20px tahoma;
+ border: 1px solid yellow;
+}
+
+a.aditional:hover {
+background-position: 0 0;
+color:#fff;
+    }
+}
+/*    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ @media screen and (max-width: 380px){
+
+
+     body{
+    
+    margin: 0; 
+    height: 100%; 
+    background-position: center;
+    background-size: cover; 
+    background: url(../images/backmobile.png) no-repeat;  
+}
+
+
+ul { position: fixed;
+    width: 100%;
+    height: 5%;
+top: 90%;
+    left: 6%;
+
+    
+}
+
+
+
+nav li{
+ width: 30px;
+
+    display: inline-block;
+margin-right: 7%;
+}
+
+
+#btn1 img{width: 110%;
+height: 110%;}
+#btn2 img{width: 110%;
+height: 110%;}
+#btn3 img {width: 110%;
+height: 110%; }
+#btn4 img{width: 110%;
+height: 110%;}
+#btn5 img{width: 110%;
+    height: 110%;}
+#btn5{
+padding-right: 0%;}
+
+
+
+a {
+    text-decoration: none;
+    color: #f85338;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+
+.section{   padding-top: 6%;}
+
+#progressbar{
+    width: 10%;
+    height: 2%;
+    border-radius: 20px;
+    position: fixed;
+    display: block;
+/*    background:linear-gradient(to left, #ccccff,#55F8F0, #ccccff);*/
+    background-color: white;
+    top: 95%;
+    left: 17%;
+}
+#bgwave{
+    width: 68%;
+    height: 2%;
+    border-radius: 80px;
+    position: fixed;
+    display: block;
+    background:linear-gradient(to left, #ccccff,#55F8F0, #19d1ff);
+    top: 95%;
+    left: 17%;
+}
+
+
+#wave::before{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 10px;
+        border-radius: 20px;
+background-size: 20px 20px;
+background-image:radial-gradient(circle at 10px -5px, transparent 12px, #19d1ff 13px);
+
+}
+
+#wave::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 15px;
+    border-radius: 20px;
+background-size: 40px  20px;
+background-image:radial-gradient(circle at 10px 15px, #19d1ff 12px, transparent 13px);
+}
+
+#bg{
+    position: fixed;
+    top:91%;
+    left: 14.7%;
+    border-radius: 20px;
+    width: 72%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#back{
+    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+    display: inline;
+   
+   
+}
+
+
+#fullpage #ex4, #fullpage #ex3, #fullpage #ex2, #fullpage #ex1{
+    border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+
+    background-color: white;
+    background: rgba(63, 146, 235, 0.4);
+}
+
+.ex5{
+     border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+  
+}
+
+#mal{
+         font-family: 'Lobster', cursive;
+left: 32%;
+    top: 80%;
+    font-language-override: normal;
+    font-size: 30px;
+    color: hotpink;
+    position: absolute;
+}
+h6{
+    position: absolute;
+    font-language-override: normal;
+    font-size: 15px;
+    color: hotpink;
+    left: 36%;
+    top: 89%;
+}
+h5{
+    
+    font-language-override: normal;
+    font-size: 20px;
+    color: yellow;
+    border: 5px;
+    border-color: cadetblue;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-language-override: normal;
+    font-size: 30px;
+    color: hotpink;
+    
+}
+
+
+#imglogo{
+    position: absolute;
+    left: 21%;
+    width:59%;
+    height: 35%;
+    opacity: 0.5;
+}
+
+
+
+p{
+    
+      font-family: 'Lobster', cursive;
+        text-align: center;
+    color: rgb(159, 227, 218);
+    font-size: 105%;
+}
+
+
+
+
+
+
+#circle {
+  position: relative;
+  width:40%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -30%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 30px;
+    color: hotpink;
+top: -200%;
+  position: absolute; left: 45; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#circle b:nth-of-type(-n+15) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+#circle b:nth-of-type(1) {-ms-transform: rotate(283deg); -webkit-transform: rotate(283deg); transform: rotate(283deg);}
+#circle b:nth-of-type(2) {-ms-transform: rotate(293deg); -webkit-transform: rotate(293deg); transform: rotate(293deg);} 
+#circle b:nth-of-type(3) {-ms-transform: rotate(303deg); -webkit-transform: rotate(303deg); transform: rotate(303deg);} 
+#circle b:nth-of-type(4) {-ms-transform: rotate(313deg); -webkit-transform: rotate(313deg); transform: rotate(313deg);} 
+#circle b:nth-of-type(5) {-ms-transform: rotate(323deg); -webkit-transform: rotate(323deg); transform: rotate(323deg);} 
+#circle b:nth-of-type(6) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);} 
+#circle b:nth-of-type(7) {-ms-transform: rotate(353deg); -webkit-transform: rotate(353deg); transform: rotate(353deg);} 
+#circle b:nth-of-type(8) {-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);} 
+#circle b:nth-of-type(9) {-ms-transform: rotate(13deg); -webkit-transform: rotate(13deg); transform: rotate(13deg);} 
+#circle b:nth-of-type(10) {-ms-transform: rotate(23deg); -webkit-transform: rotate(23deg); transform: rotate(23deg);} 
+#circle b:nth-of-type(11) {-ms-transform: rotate(33deg); -webkit-transform: rotate(33deg); transform: rotate(33deg);} 
+#circle b:nth-of-type(12) {-ms-transform: rotate(43deg); -webkit-transform: rotate(43deg); transform: rotate(43deg);} 
+#circle b:nth-of-type(13) {-ms-transform: rotate(53deg); -webkit-transform: rotate(53deg); transform: rotate(53deg);} 
+#circle b:nth-of-type(14) {-ms-transform: rotate(63deg); -webkit-transform: rotate(63deg); transform: rotate(63deg);} 
+#circle b:nth-of-type(15) {-ms-transform: rotate(73deg); -webkit-transform: rotate(73deg); transform: rotate(73deg);} 
+    
+#en_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -15%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#en_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 40px;
+    color: hotpink;
+
+  position: absolute; left: 50%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#en_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #en_circle b:nth-of-type(1) {-ms-transform: rotate(330deg); -webkit-transform: rotate(330deg); transform: rotate(330deg);}
+    #en_circle b:nth-of-type(2) {-ms-transform: rotate(340deg); -webkit-transform: rotate(340deg); transform: rotate(340deg);} 
+    #en_circle b:nth-of-type(3) {-ms-transform: rotate(350deg);   -webkit-transform: rotate(350deg);   transform: rotate(350deg);} 
+    #en_circle b:nth-of-type(4) {-ms-transform: rotate(0deg);  -webkit-transform: rotate(0deg);  transform: rotate(0deg);} 
+    #en_circle b:nth-of-type(5) {-ms-transform: rotate(10deg);  -webkit-transform: rotate(10deg);  transform: rotate(10deg);} 
+    #en_circle b:nth-of-type(6) {-ms-transform: rotate(20deg);  -webkit-transform: rotate(20deg);  transform: rotate(20deg);} 
+    #en_circle b:nth-of-type(7) {-ms-transform: rotate(30deg);  -webkit-transform: rotate(30deg);  transform: rotate(30deg);} 
+   
+    
+#cz_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -15%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#cz_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 45%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#cz_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #cz_circle b:nth-of-type(1) {-ms-transform: rotate(330deg); -webkit-transform: rotate(330deg); transform: rotate(330deg);}
+ #cz_circle b:nth-of-type(2) {-ms-transform: rotate(340deg); -webkit-transform: rotate(340deg); transform: rotate(340deg);} 
+ #cz_circle b:nth-of-type(3) {-ms-transform: rotate(350deg);   -webkit-transform: rotate(350deg);   transform: rotate(350deg);} 
+ #cz_circle b:nth-of-type(4) {-ms-transform: rotate(0deg);  -webkit-transform: rotate(0deg);  transform: rotate(0deg);} 
+ #cz_circle b:nth-of-type(5) {-ms-transform: rotate(10deg);  -webkit-transform: rotate(10deg);  transform: rotate(10deg);} 
+ #cz_circle b:nth-of-type(6) {-ms-transform: rotate(20deg);  -webkit-transform: rotate(20deg);  transform: rotate(20deg);} 
+ #cz_circle b:nth-of-type(7) {-ms-transform: rotate(30deg);  -webkit-transform: rotate(30deg);  transform: rotate(30deg);} 
+
+
+
+
+
+
+
+
+    
+
+a.glo{
+    top: 10%;
+position: absolute;
+ color:#00c6ff;
+ padding: 10px 0px;
+ width:40%;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 15px;
+ border: 0px solid #00C6FF;
+}
+a.glo:hover {
+background-position: 0 0;
+color:#fff;
+}
+a.glo1{
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 15px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+ color:#00c6ff;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+/* font: 400 30px tahoma;*/
+ border: 0px solid #00C6FF;
+}
+a.glo1:hover {
+background-position: 0 0;
+color:#fff;
+}
+
+a.aditional{
+    
+ color:yellow;
+ padding: 5px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,yellow);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 20px tahoma;
+ border: 1px solid yellow;
+}
+
+a.aditional:hover {
+background-position: 0 0;
+color:#fff;
+    }
+}
+/*    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+ @media screen and (max-width: 330px){
+
+
+     body{
+    
+    margin: 0; 
+    height: 100%; 
+    background-position: center;
+    background-size: cover; 
+    background: url(../images/backmobile.png) no-repeat;  
+}
+
+
+ul { position: fixed;
+    width: 100%;
+    height: 5%;
+top: 90%;
+    left: 4.5%;
+
+    
+}
+
+
+
+nav li{
+ width: 30px;
+
+    display: inline-block;
+margin-right: 7%;
+}
+
+
+#btn1 img{width: 110%;
+height: 110%;}
+#btn2 img{width: 110%;
+height: 110%;}
+#btn3 img {width: 110%;
+height: 110%; }
+#btn4 img{width: 110%;
+height: 110%;}
+#btn5 img{width: 110%;
+    height: 110%;}
+#btn5{
+padding-right: 0%;}
+
+
+
+a {
+    text-decoration: none;
+    color: #f85338;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+
+.section{   padding-top: 6%;}
+
+#progressbar{
+    width: 10%;
+    height: 2%;
+    border-radius: 20px;
+    position: fixed;
+    display: block;
+/*    background:linear-gradient(to left, #ccccff,#55F8F0, #ccccff);*/
+    background-color: white;
+    top: 95%;
+    left: 17%;
+}
+#bgwave{
+    width: 68%;
+    height: 2%;
+    border-radius: 80px;
+    position: fixed;
+    display: block;
+    background:linear-gradient(to left, #ccccff,#55F8F0, #19d1ff);
+    top: 95%;
+    left: 17%;
+}
+
+
+#wave::before{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 10px;
+        border-radius: 20px;
+background-size: 20px 20px;
+background-image:radial-gradient(circle at 10px -5px, transparent 12px, #19d1ff 13px);
+
+}
+
+#wave::after{
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat;
+height: 15px;
+    border-radius: 20px;
+background-size: 40px  20px;
+background-image:radial-gradient(circle at 10px 15px, #19d1ff 12px, transparent 13px);
+}
+
+#bg{
+    position: fixed;
+    top:91%;
+    left: 14.7%;
+    border-radius: 20px;
+    width: 72%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#back{
+    border-radius: 20px;
+    width: 100%;
+    height: 20%;
+    display: inline;
+   
+   
+}
+
+
+#fullpage #ex4, #fullpage #ex3, #fullpage #ex2, #fullpage #ex1{
+    border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    margin-left: 8%;
+    background-color: white;
+    background: rgba(63, 146, 235, 0.4);
+}
+
+.ex5{
+     border-radius: 20%;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+  
+}
+
+#mal{
+         font-family: 'Lobster', cursive;
+left: 38%;
+    top: 90%;
+    font-language-override: normal;
+    font-size: 30px;
+    color: hotpink;
+    position: absolute;
+}
+h6{
+    position: absolute;
+    font-language-override: normal;
+    font-size: 15px;
+    color: hotpink;
+    left: 40%;
+    top: 100%;
+}
+h5{
+    
+    font-language-override: normal;
+    font-size: 20px;
+    color: yellow;
+    border: 5px;
+    border-color: cadetblue;
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-language-override: normal;
+    font-size: 30px;
+    color: hotpink;
+    
+}
+
+
+#imglogo{
+    position: absolute;
+    left: 28%;
+    width:59%;
+    height: 35%;
+    opacity: 0.5;
+}
+
+
+
+p{
+    
+      font-family: 'Lobster', cursive;
+        text-align: center;
+    color: rgb(159, 227, 218);
+    font-size: 105%;
+}
+
+
+
+
+
+
+#circle {
+  position: relative;
+  width:40%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -30%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 30px;
+    color: hotpink;
+top: -200%;
+  position: absolute; left: 70%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#circle b:nth-of-type(-n+15) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+#circle b:nth-of-type(1) {-ms-transform: rotate(283deg); -webkit-transform: rotate(283deg); transform: rotate(283deg);}
+#circle b:nth-of-type(2) {-ms-transform: rotate(293deg); -webkit-transform: rotate(293deg); transform: rotate(293deg);} 
+#circle b:nth-of-type(3) {-ms-transform: rotate(303deg); -webkit-transform: rotate(303deg); transform: rotate(303deg);} 
+#circle b:nth-of-type(4) {-ms-transform: rotate(313deg); -webkit-transform: rotate(313deg); transform: rotate(313deg);} 
+#circle b:nth-of-type(5) {-ms-transform: rotate(323deg); -webkit-transform: rotate(323deg); transform: rotate(323deg);} 
+#circle b:nth-of-type(6) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);} 
+#circle b:nth-of-type(7) {-ms-transform: rotate(353deg); -webkit-transform: rotate(353deg); transform: rotate(353deg);} 
+#circle b:nth-of-type(8) {-ms-transform: rotate(3deg); -webkit-transform: rotate(3deg); transform: rotate(3deg);} 
+#circle b:nth-of-type(9) {-ms-transform: rotate(13deg); -webkit-transform: rotate(13deg); transform: rotate(13deg);} 
+#circle b:nth-of-type(10) {-ms-transform: rotate(23deg); -webkit-transform: rotate(23deg); transform: rotate(23deg);} 
+#circle b:nth-of-type(11) {-ms-transform: rotate(33deg); -webkit-transform: rotate(33deg); transform: rotate(33deg);} 
+#circle b:nth-of-type(12) {-ms-transform: rotate(43deg); -webkit-transform: rotate(43deg); transform: rotate(43deg);} 
+#circle b:nth-of-type(13) {-ms-transform: rotate(53deg); -webkit-transform: rotate(53deg); transform: rotate(53deg);} 
+#circle b:nth-of-type(14) {-ms-transform: rotate(63deg); -webkit-transform: rotate(63deg); transform: rotate(63deg);} 
+#circle b:nth-of-type(15) {-ms-transform: rotate(73deg); -webkit-transform: rotate(73deg); transform: rotate(73deg);} 
+    
+#en_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -15%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#en_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 40px;
+    color: hotpink;
+
+  position: absolute; left: 50%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#en_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #en_circle b:nth-of-type(1) {-ms-transform: rotate(330deg); -webkit-transform: rotate(330deg); transform: rotate(330deg);}
+    #en_circle b:nth-of-type(2) {-ms-transform: rotate(340deg); -webkit-transform: rotate(340deg); transform: rotate(340deg);} 
+    #en_circle b:nth-of-type(3) {-ms-transform: rotate(350deg);   -webkit-transform: rotate(350deg);   transform: rotate(350deg);} 
+    #en_circle b:nth-of-type(4) {-ms-transform: rotate(0deg);  -webkit-transform: rotate(0deg);  transform: rotate(0deg);} 
+    #en_circle b:nth-of-type(5) {-ms-transform: rotate(10deg);  -webkit-transform: rotate(10deg);  transform: rotate(10deg);} 
+    #en_circle b:nth-of-type(6) {-ms-transform: rotate(20deg);  -webkit-transform: rotate(20deg);  transform: rotate(20deg);} 
+    #en_circle b:nth-of-type(7) {-ms-transform: rotate(30deg);  -webkit-transform: rotate(30deg);  transform: rotate(30deg);} 
+   
+    
+#cz_circle {
+  position: relative;
+  width:80%; padding: 10% 0; border-radius: 100%;  /* сделать адаптивный круг */
+top: -15%;
+  font: 5vmin monospace; /* моноширный шрифт */
+  margin: 10% auto;
+}
+
+#cz_circle b {
+   
+     
+     font-family: 'Lobster', cursive;
+
+    font-size: 50px;
+    color: hotpink;
+
+  position: absolute; left: 50%; /* все буквы собрать в одну точку по середине */
+  width: 0; /* убрать отступ */
+}
+
+/* Шпаргалка блоггера */
+#cz_circle b:nth-of-type(-n+7) {
+  bottom: 50%;
+  -ms-transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+  padding-bottom: 70%; /* от значения свойства зависит приближение текста к центру круга */
+}
+    #cz_circle b:nth-of-type(1) {-ms-transform: rotate(330deg); -webkit-transform: rotate(330deg); transform: rotate(330deg);}
+ #cz_circle b:nth-of-type(2) {-ms-transform: rotate(340deg); -webkit-transform: rotate(340deg); transform: rotate(340deg);} 
+ #cz_circle b:nth-of-type(3) {-ms-transform: rotate(350deg);   -webkit-transform: rotate(350deg);   transform: rotate(350deg);} 
+ #cz_circle b:nth-of-type(4) {-ms-transform: rotate(0deg);  -webkit-transform: rotate(0deg);  transform: rotate(0deg);} 
+ #cz_circle b:nth-of-type(5) {-ms-transform: rotate(10deg);  -webkit-transform: rotate(10deg);  transform: rotate(10deg);} 
+ #cz_circle b:nth-of-type(6) {-ms-transform: rotate(20deg);  -webkit-transform: rotate(20deg);  transform: rotate(20deg);} 
+ #cz_circle b:nth-of-type(7) {-ms-transform: rotate(30deg);  -webkit-transform: rotate(30deg);  transform: rotate(30deg);} 
+
+
+
+
+
+
+
+
+    
+
+a.glo{
+    top: 10%;
+position: absolute;
+ color:#00c6ff;
+ padding: 10px 0px;
+ width:50%;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 15px;
+ border: 0px solid #00C6FF;
+}
+a.glo:hover {
+background-position: 0 0;
+color:#fff;
+}
+a.glo1{
+          font-family: 'Lobster', cursive;
+/*font-family: 'Marck Script', cursive;*/
+/*font-family: 'Gabriela', serif;*/
+/*font-family: 'Pattaya', sans-serif;*/
+    font-size: 15px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+ color:#00c6ff;
+ padding: 10px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#00c6ff);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+/* font: 400 30px tahoma;*/
+ border: 0px solid #00C6FF;
+}
+a.glo1:hover {
+background-position: 0 0;
+color:#fff;
+}
+
+a.aditional{
+    
+ color:yellow;
+ padding: 5px 10px;
+ width:200px;
+ text-decoration:none;
+ text-align:center;
+ margin:20px auto;
+ display: block;
+ background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,yellow);
+ background-position: 100% 0;
+ background-size: 200% 100%;
+ transition: all .25s ease-in;
+ font: 400 20px tahoma;
+ border: 1px solid yellow;
+}
+
+a.aditional:hover {
+background-position: 0 0;
+color:#fff;
+    }
+}
+
